@@ -1,0 +1,224 @@
+[
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "ru.hh.school.Application.getBean",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jre1.8.0_152\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.8604212063728742E7,
+            "scoreError" : 141778.90185894776,
+            "scoreConfidence" : [
+                1.8462433161869794E7,
+                1.874599096558769E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.8434228563424684E7,
+                "50.0" : 1.8594490871005155E7,
+                "90.0" : 1.8734695277920928E7,
+                "95.0" : 1.873558846791231E7,
+                "99.0" : 1.873558846791231E7,
+                "99.9" : 1.873558846791231E7,
+                "99.99" : 1.873558846791231E7,
+                "99.999" : 1.873558846791231E7,
+                "99.9999" : 1.873558846791231E7,
+                "100.0" : 1.873558846791231E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1.8617624563839342E7,
+                    1.859122641437973E7,
+                    1.8555382636165805E7,
+                    1.851270860191493E7,
+                    1.8726656567998506E7,
+                    1.873558846791231E7,
+                    1.8434228563424684E7,
+                    1.8684971389662933E7,
+                    1.858597810435859E7,
+                    1.859775532763058E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "ru.hh.school.Application.startContext",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jre1.8.0_152\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 150.66588428198136,
+            "scoreError" : 7.1425870038772015,
+            "scoreConfidence" : [
+                143.52329727810417,
+                157.80847128585856
+            ],
+            "scorePercentiles" : {
+                "0.0" : 141.893095896941,
+                "50.0" : 152.4134297681806,
+                "90.0" : 155.61192070592497,
+                "95.0" : 155.62526494453158,
+                "99.0" : 155.62526494453158,
+                "99.9" : 155.62526494453158,
+                "99.99" : 155.62526494453158,
+                "99.999" : 155.62526494453158,
+                "99.9999" : 155.62526494453158,
+                "100.0" : 155.62526494453158
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    152.15797238797032,
+                    141.893095896941,
+                    152.78766075108095,
+                    154.15110251881927,
+                    146.4194878744539,
+                    144.74062480035775,
+                    150.72292393880235,
+                    152.66888714839087,
+                    155.62526494453158,
+                    155.49182255846537
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "ru.hh.school.Application.getBean",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jre1.8.0_152\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 10,
+        "warmupTime" : "single-shot",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "single-shot",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.8124200000000002E-5,
+            "scoreError" : 1.0045926788357116E-5,
+            "scoreConfidence" : [
+                8.078273211642886E-6,
+                2.817012678835712E-5
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.0211E-5,
+                "50.0" : 1.62275E-5,
+                "90.0" : 3.05235E-5,
+                "95.0" : 3.0633E-5,
+                "99.0" : 3.0633E-5,
+                "99.9" : 3.0633E-5,
+                "99.99" : 3.0633E-5,
+                "99.999" : 3.0633E-5,
+                "99.9999" : 3.0633E-5,
+                "100.0" : 3.0633E-5
+            },
+            "scoreUnit" : "s/op",
+            "rawData" : [
+                [
+                    1.0211E-5,
+                    1.7504E-5,
+                    1.4952E-5,
+                    1.641E-5,
+                    1.6045E-5,
+                    1.714E-5,
+                    2.9538E-5,
+                    1.5316E-5,
+                    3.0633E-5,
+                    1.3493E-5
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.20",
+        "benchmark" : "ru.hh.school.Application.startContext",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jre1.8.0_152\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_152",
+        "vmVersion" : "25.152-b16",
+        "warmupIterations" : 10,
+        "warmupTime" : "single-shot",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "single-shot",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.0167391208,
+            "scoreError" : 0.0026633571889761233,
+            "scoreConfidence" : [
+                0.014075763611023877,
+                0.019402477988976125
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.014119751,
+                "50.0" : 0.016737552500000002,
+                "90.0" : 0.0199502443,
+                "95.0" : 0.02006136,
+                "99.0" : 0.02006136,
+                "99.9" : 0.02006136,
+                "99.99" : 0.02006136,
+                "99.999" : 0.02006136,
+                "99.9999" : 0.02006136,
+                "100.0" : 0.02006136
+            },
+            "scoreUnit" : "s/op",
+            "rawData" : [
+                [
+                    0.017070681,
+                    0.015372037,
+                    0.016984618,
+                    0.018950203,
+                    0.017230407,
+                    0.015537598,
+                    0.016490487,
+                    0.014119751,
+                    0.015574066,
+                    0.02006136
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
